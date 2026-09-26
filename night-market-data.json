@@ -12,23 +12,21 @@
     ],
     "data_type": "public_market_data"
   },
-  "generated_at": "2026-09-26T20:00:50.017Z",
+  "generated_at": "2026-09-26T20:05:50.018Z",
   "freshness": {
     "latest_completed_1h_candle": "2026-09-26T19:00:00.000Z",
     "latest_completed_1h_close_time": "2026-09-26T20:00:00.000Z",
-    "age_minutes_since_close": 0.8,
+    "age_minutes_since_close": 5.8,
     "complete_candles_only_for_indicators": true
   },
-  "warnings": [
-    "BTC/EUR 4h data unavailable"
-  ],
+  "warnings": [],
   "market": {
     "price_eur": 0.02259,
-    "best_bid_eur": 0.02241,
-    "best_ask_eur": 0.02247,
-    "midpoint_eur": 0.02244,
-    "ticker_spread_pct": 0.2674,
-    "ticker_spread_bps": 26.74
+    "best_bid_eur": 0.0224,
+    "best_ask_eur": 0.02246,
+    "midpoint_eur": 0.02243,
+    "ticker_spread_pct": 0.2675,
+    "ticker_spread_bps": 26.75
   },
   "performance_completed": {
     "night": {
@@ -249,7 +247,27 @@
           "above_ema50": false,
           "ema20_above_ema50": false
         },
-        "4h": null,
+        "4h": {
+          "latest_completed_candle": "2026-09-26T16:00:00.000Z",
+          "close": 73805.8,
+          "rsi14": 51.44,
+          "ema20": 73866.02279695,
+          "ema50": 72739.38279843,
+          "distance_from_ema20_pct": -0.08,
+          "distance_from_ema50_pct": 1.47,
+          "atr14": 651.54687128,
+          "atr14_pct": 0.88,
+          "volume": 13.97,
+          "volume_avg20": 72.45,
+          "volume_ratio20": 0.19,
+          "high20": 75387,
+          "low20": 72829.3,
+          "high50": 76350.5,
+          "low50": 67954,
+          "above_ema20": false,
+          "above_ema50": true,
+          "ema20_above_ema50": true
+        },
         "1d": {
           "latest_completed_candle": "2026-09-25T00:00:00.000Z",
           "close": 73839.2,
@@ -282,63 +300,63 @@
     }
   },
   "order_book": {
-    "captured_at": "2026-09-26T20:00:50.575Z",
+    "captured_at": "2026-09-26T20:05:50.591Z",
     "captured_levels_per_side": 25,
-    "best_bid_eur": 0.02241,
-    "best_ask_eur": 0.02247,
-    "midpoint_eur": 0.02244,
-    "spread_pct": 0.2674,
-    "spread_bps": 26.74,
-    "top25_bid_notional_eur": 109663.71,
-    "top25_ask_notional_eur": 69832.05,
-    "imbalance_top25": 0.222,
+    "best_bid_eur": 0.0224,
+    "best_ask_eur": 0.02246,
+    "midpoint_eur": 0.02243,
+    "spread_pct": 0.2675,
+    "spread_bps": 26.75,
+    "top25_bid_notional_eur": 73292.69,
+    "top25_ask_notional_eur": 49520.25,
+    "imbalance_top25": 0.194,
     "depth_within_0_5pct": {
-      "bid_notional_eur": 33082.97,
-      "ask_notional_eur": 6385.67,
-      "imbalance": 0.676
+      "bid_notional_eur": 30102.34,
+      "ask_notional_eur": 5531.82,
+      "imbalance": 0.69
     },
     "top5_bids": [
       [
-        0.02241,
-        4462.08
-      ],
-      [
         0.0224,
-        86003.93
+        23504.38
       ],
       [
         0.02239,
-        153863.33
-      ],
-      [
-        0.02238,
-        257880.99
+        4466.26
       ],
       [
         0.02237,
-        204700.6
+        200154.36
+      ],
+      [
+        0.02236,
+        279461.17
+      ],
+      [
+        0.02235,
+        473.7
       ]
     ],
     "top5_asks": [
       [
-        0.02247,
-        89697.43
+        0.02246,
+        4452.36
       ],
       [
-        0.02248,
-        4947.96
+        0.02251,
+        85784.55
       ],
       [
-        0.02253,
-        23493
+        0.02252,
+        152975.13
       ],
       [
         0.02254,
-        165467.85
+        2476
       ],
       [
-        0.02257,
-        2476
+        0.02256,
+        22163.12
       ]
     ]
   },
@@ -1552,6 +1570,6 @@
   },
   "automation": {
     "trigger": "cloudflare_cron",
-    "scheduled_time": "2026-09-26T20:00:50.000Z"
+    "scheduled_time": "2026-09-26T20:05:50.000Z"
   }
 }
