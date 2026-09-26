@@ -12,19 +12,19 @@
     ],
     "data_type": "public_market_data"
   },
-  "generated_at": "2026-09-26T18:25:50.018Z",
+  "generated_at": "2026-09-26T18:30:50.095Z",
   "freshness": {
     "latest_completed_1h_candle": "2026-09-26T17:00:00.000Z",
     "latest_completed_1h_close_time": "2026-09-26T18:00:00.000Z",
-    "age_minutes_since_close": 25.8,
+    "age_minutes_since_close": 30.8,
     "complete_candles_only_for_indicators": true
   },
   "warnings": [],
   "market": {
     "price_eur": 0.0226,
-    "best_bid_eur": 0.02251,
-    "best_ask_eur": 0.02255,
-    "midpoint_eur": 0.02253,
+    "best_bid_eur": 0.02252,
+    "best_ask_eur": 0.02256,
+    "midpoint_eur": 0.02254,
     "ticker_spread_pct": 0.1775,
     "ticker_spread_bps": 17.75
   },
@@ -300,63 +300,63 @@
     }
   },
   "order_book": {
-    "captured_at": "2026-09-26T18:25:50.595Z",
+    "captured_at": "2026-09-26T18:30:50.652Z",
     "captured_levels_per_side": 25,
-    "best_bid_eur": 0.02251,
-    "best_ask_eur": 0.02255,
-    "midpoint_eur": 0.02253,
+    "best_bid_eur": 0.02252,
+    "best_ask_eur": 0.02256,
+    "midpoint_eur": 0.02254,
     "spread_pct": 0.1775,
     "spread_bps": 17.75,
-    "top25_bid_notional_eur": 117429.12,
-    "top25_ask_notional_eur": 68273.26,
-    "imbalance_top25": 0.265,
+    "top25_bid_notional_eur": 115837.63,
+    "top25_ask_notional_eur": 68253.61,
+    "imbalance_top25": 0.258,
     "depth_within_0_5pct": {
-      "bid_notional_eur": 19867.82,
-      "ask_notional_eur": 6419.2,
-      "imbalance": 0.512
+      "bid_notional_eur": 24676.43,
+      "ask_notional_eur": 6537.49,
+      "imbalance": 0.581
     },
     "top5_bids": [
       [
-        0.02251,
-        4442.33
+        0.02252,
+        4440.11
       ],
       [
         0.0225,
-        23382.01
+        748.65
       ],
       [
-        0.02249,
-        373.59
+        0.02248,
+        194672.29
       ],
       [
         0.02247,
-        244972.66
+        357999.51
       ],
       [
         0.02246,
-        446154.66
+        400439.27
       ]
     ],
     "top5_asks": [
-      [
-        0.02255,
-        749.85
-      ],
       [
         0.02256,
         88570.06
       ],
       [
-        0.02258,
-        462.04
-      ],
-      [
-        0.02259,
-        23382.01
+        0.02257,
+        374.32
       ],
       [
         0.0226,
-        4424.78
+        23390.19
+      ],
+      [
+        0.02262,
+        152298.85
+      ],
+      [
+        0.02263,
+        10412.11
       ]
     ]
   },
@@ -1570,6 +1570,6 @@
   },
   "automation": {
     "trigger": "cloudflare_cron",
-    "scheduled_time": "2026-09-26T18:25:50.000Z"
+    "scheduled_time": "2026-09-26T18:30:50.000Z"
   }
 }
